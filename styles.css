@@ -1,14 +1,14 @@
 body {
     font-family: 'Orbitron', sans-serif;
-    background-color: #121212;
+    background-color: #0a0a0a;
     color: #00ffcc;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #121212 0%, #1e1e1e 50%, #121212 100%);
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
 }
 
 header {
-    background-color: rgba(30, 30, 30, 0.9);
+    background-color: #1a1a1a;
     color: #00ffcc;
     padding: 1rem;
     text-align: center;
@@ -19,14 +19,12 @@ header h1 {
     margin: 0;
     font-size: 2.5rem;
     color: #ff00ff;
-    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
 }
 
 header p {
     font-size: 1.2rem;
     margin: 0.5rem 0;
     color: #00ffcc;
-    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
 }
 
 nav ul {
@@ -46,20 +44,18 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
-    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
 }
 
 nav ul li a:hover {
     color: #ff00ff;
     text-decoration: underline;
-    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
 }
 
 section {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 800px;
-    background-color: rgba(30, 30, 30, 0.9);
+    background-color: #1a1a1a;
     border: 2px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(45deg, #ff00ff, #00ffcc);
@@ -83,7 +79,7 @@ h3 {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: rgba(30, 30, 30, 0.9);
+    background-color: #1a1a1a;
     border-top: 3px solid #ff00ff;
     color: #00ffcc;
 }
@@ -98,5 +94,22 @@ footer a {
 footer a:hover {
     color: #00ffcc;
     text-decoration: underline;
+}
+
+/* Additional styling for cyberpunk vibes */
+header, footer, section, nav ul li a {
+    transition: all 0.3s ease;
+}
+
+body {
+    background: linear-gradient(135deg, #0a0a0a 25%, #1a1a1a 75%);
+}
+
+header h1, header p, footer, nav ul li a {
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffcc;
+}
+
+section {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
 }
 
