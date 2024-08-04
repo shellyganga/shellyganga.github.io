@@ -1,14 +1,14 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #0d0d0d;
+    background-color: #121212;
     color: #00ffcc;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 50%, #0d0d0d 100%);
+    background: linear-gradient(135deg, #121212 0%, #1e1e1e 50%, #121212 100%);
 }
 
 header {
-    background-color: rgba(26, 26, 26, 0.9);
+    background-color: rgba(30, 30, 30, 0.9);
     color: #00ffcc;
     padding: 1rem;
     text-align: center;
@@ -19,12 +19,14 @@ header h1 {
     margin: 0;
     font-size: 2.5rem;
     color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
 }
 
 header p {
     font-size: 1.2rem;
     margin: 0.5rem 0;
     color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
 }
 
 nav ul {
@@ -43,20 +45,26 @@ nav ul li a {
     color: #00ffcc;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
 }
 
 nav ul li a:hover {
+    color: #ff00ff;
     text-decoration: underline;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
 }
 
 section {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 800px;
-    background-color: rgba(26, 26, 26, 0.9);
-    border: 1px solid #00ffcc;
+    background-color: rgba(30, 30, 30, 0.9);
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, #ff00ff, #00ffcc);
     border-radius: 10px;
-    box-shadow: 0 0 10px #00ffcc;
+    box-shadow: 0 0 20px #00ffcc;
 }
 
 h2 {
@@ -64,6 +72,7 @@ h2 {
     text-align: center;
     border-bottom: 2px solid #00ffcc;
     padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -74,7 +83,7 @@ h3 {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: rgba(26, 26, 26, 0.9);
+    background-color: rgba(30, 30, 30, 0.9);
     border-top: 3px solid #ff00ff;
     color: #00ffcc;
 }
@@ -83,8 +92,23 @@ footer a {
     color: #ff00ff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
+    color: #00ffcc;
     text-decoration: underline;
 }
+
+header, footer, nav ul li a {
+    transition: all 0.3s ease;
+}
+
+nav ul li a {
+    text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+}
+
+nav ul li a:hover {
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+}
+
