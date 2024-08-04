@@ -1,7 +1,7 @@
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #0a0a0a;
-    color: #00ffcc;
+    color: #00ccff;
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
@@ -9,22 +9,22 @@ body {
 
 header {
     background-color: #1a1a1a;
-    color: #00ffcc;
+    color: #00ccff;
     padding: 1rem;
     text-align: center;
-    border-bottom: 3px solid #ff00ff;
+    border-bottom: 3px solid #3399ff;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    color: #ff00ff;
+    color: #3399ff;
 }
 
 header p {
     font-size: 1.2rem;
     margin: 0.5rem 0;
-    color: #00ffcc;
+    color: #00ccff;
 }
 
 nav ul {
@@ -40,14 +40,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #00ffcc;
+    color: #00ccff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ff00ff;
+    color: #3399ff;
     text-decoration: underline;
 }
 
@@ -58,21 +58,21 @@ section {
     background-color: #1a1a1a;
     border: 2px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(45deg, #ff00ff, #00ffcc);
+    border-image-source: linear-gradient(45deg, #3399ff, #00ccff);
     border-radius: 10px;
-    box-shadow: 0 0 20px #00ffcc;
+    box-shadow: 0 0 20px #00ccff;
 }
 
 h2 {
-    color: #ff00ff;
+    color: #3399ff;
     text-align: center;
-    border-bottom: 2px solid #00ffcc;
+    border-bottom: 2px solid #00ccff;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
 }
 
 h3 {
-    color: #ff00ff;
+    color: #3399ff;
     margin-top: 1.5rem;
 }
 
@@ -80,36 +80,20 @@ footer {
     text-align: center;
     padding: 1rem 0;
     background-color: #1a1a1a;
-    border-top: 3px solid #ff00ff;
-    color: #00ffcc;
+    border-top: 3px solid #3399ff;
+    color: #00ccff;
 }
 
 footer a {
-    color: #ff00ff;
+    color: #3399ff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #00ffcc;
+    color: #00ccff;
     text-decoration: underline;
 }
 
-/* Additional styling for cyberpunk vibes */
-header, footer, section, nav ul li a {
-    transition: all 0.3s ease;
-}
-
-body {
-    background: linear-gradient(135deg, #0a0a0a 25%, #1a1a1a 75%);
-}
-
-header h1, header p, footer, nav ul li a {
-    text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffcc;
-}
-
-section {
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
-}
 
