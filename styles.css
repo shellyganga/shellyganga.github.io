@@ -4,7 +4,10 @@ body {
     color: #a0c4ff;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 50%, #1a1a1a 100%);
+    background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 50%, #1a1a1a 100%), url('cityscape.png'); /* Using the provided image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header {
@@ -55,7 +58,7 @@ section {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 800px;
-    background-color: #2e2e2e;
+    background-color: rgba(46, 46, 46, 0.9); /* Add opacity to see the background image */
     border: 2px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(45deg, #6c63ff, #a0c4ff);
@@ -95,6 +98,7 @@ footer a:hover {
     color: #a0c4ff;
     text-decoration: underline;
 }
+
 
 
 
