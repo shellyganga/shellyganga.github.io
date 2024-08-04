@@ -4,7 +4,7 @@ body {
     color: #a0c4ff;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, rgba(26, 26, 26, 0.9) 0%, rgba(46, 46, 46, 0.9) 50%, rgba(26, 26, 26, 0.9) 100%), url('cityscape.png'); /* Add your cityscape image here */
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.9) 0%, rgba(46, 46, 46, 0.9) 50%, rgba(26, 26, 26, 0.9) 100%), url('city_scape.png'); /* Using the new image */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: rgba(46, 46, 46, 0.9); /* Adjust opacity */
+    background-color: rgba(46, 46, 46, 0.8); /* Adjust opacity */
     color: #a0c4ff;
     padding: 1rem;
     text-align: center;
@@ -59,7 +59,7 @@ section {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 800px;
-    background-color: rgba(46, 46, 46, 0.9); /* Add opacity to see the background image */
+    background-color: rgba(46, 46, 46, 0.8); /* Add opacity to see the background image */
     border: 2px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(45deg, #6c63ff, #a0c4ff);
@@ -83,7 +83,7 @@ h3 {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: rgba(46, 46, 46, 0.9); /* Adjust opacity */
+    background-color: rgba(46, 46, 46, 0.8); /* Adjust opacity */
     border-top: 3px solid #6c63ff;
     color: #a0c4ff;
 }
@@ -99,6 +99,7 @@ footer a:hover {
     color: #a0c4ff;
     text-decoration: underline;
 }
+
 
 
 
