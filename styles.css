@@ -4,7 +4,7 @@ body {
     color: #a0c4ff;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 50%, #1a1a1a 100%), url('cityscape.png'); /* Using the provided image */
+    background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 50%, #1a1a1a 100%), url('city_scape.png'); /* Using the provided image */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
